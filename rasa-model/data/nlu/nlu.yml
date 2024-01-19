@@ -1,0 +1,307 @@
+version: "2.0"
+nlu:
+intent: SELECT:
+  - List all expenses for vendor code 15000
+  - Display transactions with a spend value greater than 20,000 USD
+  - Find purchases from Taiwan, Republic of China
+  - Show expenses for the month of March in 2023
+  - List all transactions for vendor code 5500
+  - Display spending with a price per unit less than 1.00 USD
+  - Show transactions for the Metal category
+  - List expenses in the last quarter of 2023
+  - Find transactions for the Rubber category
+  - List all purchases in the last 30 days
+  - Show transactions with a spend between 10,000 and 15,000 USD
+  - Find expenses with a quantity of 3,000
+  - List all expenses in the Plastics category
+  - Display transactions with a unit of measure in (EA)
+  - Show purchases with a payment term of 120 days
+  - Find transactions from the year 2022
+  - List all transactions for the Mexico country of origin
+  - Show expenses in the Electronics category
+  - Display transactions for the current month
+  - List expenses for vendor code 1000
+  - Find purchases with descriptions containing "service"
+  - List all transactions for the Brazil country of origin
+  - Show expenses in the last 7 days
+  - Display transactions with a spend value less than 5,000 USD
+  - List transactions for vendor code 8850
+  - Find expenses in the Taiwan, Republic of China country of origin
+  - Show purchases in the Metal category
+  - List all transactions for vendor code 5000
+  - Display spending with a price per unit greater than 20.00 USD
+  - Find transactions for the Rubber category
+  - List expenses in the last 15 days
+  - Show transactions with a spend between 15,000 and 20,000 USD
+  - List all purchases for the United Kingdom country of origin
+  - Display expenses in the last 14 days
+  - Find transactions with a quantity of 7,000
+  - List expenses for vendor code 2000
+  - Show spending with a payment term of 60 days
+  - Display transactions for the United States of America
+  - List all transactions for vendor code 3000
+  - Find expenses in the last 45 days
+  - Show expenses with a unit of measure in (EA)
+  - List purchases in the Plastics category
+  - Display transactions with a price per unit between 1.00 and 2.00 USD
+  - Find transactions for vendor code 5500
+  - List all transactions for the United States of America
+  - Show transactions with descriptions containing "electronics"
+  - Find expenses with a spend value over 10,000 USD
+  - List expenses for the Taiwan, Republic of China country of origin
+  - Display spending in the Electronics category
+  - Show transactions with a payment term of 90 days
+  - List all purchases for vendor code 4000
+  - Find purchases in the last 60 days
+  - Display transactions with a quantity of 4,500
+  - List expenses in the last 30 days
+  - Show transactions with a spend between 7,000 and 10,000 USD
+  - List all transactions for the Canada country of origin
+  - Find transactions in the last 10 days
+  - Show expenses with a unit of measure in (EA)
+  - Display purchases in the last 7 days
+  - List transactions for vendor code 6000
+  - Find transactions in the last 90 days
+  - Show spending with a price per unit below 0.50 USD
+  - List all purchases for the China country of origin
+  - Find expenses in the last 14 days
+  - Show transactions with a quantity of 6,000
+  - List transactions for vendor code 7000
+  - Find expenses in the last 60 days
+  - Show expenses with a spend value above 5,000 USD
+  - List all expenses for the United States of America
+  - Find transactions in the last 30 days
+  - Show purchases with descriptions containing "service"
+  - List transactions for vendor code 8000
+  - Find purchases in the last 120 days
+  - Show transactions with a unit of measure in (EA)
+  - List all transactions for the United Kingdom country of origin
+  - Find transactions in the last 45 days
+  - Show expenses in the Metal category
+  - List expenses for vendor code 9000
+  - Find expenses in the last 15 days
+  - Show spending with a payment term of 120 days
+  - List transactions for the Mexico country of origin
+  - Find transactions in the last 7 days
+  - Show transactions with a spend between 8,000 and 12,000 USD
+  - List all transactions for the Brazil country of origin
+  - Find expenses in the last 10 days
+  - Show purchases in the Rubber category
+  - List expenses for vendor code 10000
+  - Find transactions in the last 90 days
+  - Show expenses with a price per unit above 2.00 USD
+  - List transactions for the Taiwan, Republic of China country of origin
+  - Find expenses in the last 60 days
+  - Show transactions with a quantity of 10,000
+  - List expenses for vendor code 11000
+  - Find expenses in the last 30 days
+  - Show spending with a payment term of 90 days
+  - List transactions for the United States of America
+  - Find transactions in the last 45 days
+  - Show expenses with descriptions containing "electronics"
+  - List expenses for vendor code 12000
+  - Find purchases in the last 14 days
+  - Show transactions with a unit of measure in (EA)
+  - List all transactions for the United Kingdom country of origin
+  - Find transactions in the last 15 days
+  - Show purchases in the Plastics category
+  - List expenses for vendor code 13000
+  - Find transactions in the last 10 days
+  - Show transactions with a price per unit between 1.00 and 1.50 USD
+  - List all expenses for the Canada country of origin
+  - Find expenses in the last 7 days
+  - Show expenses with a spend value under 3,000 USD
+  - List transactions for vendor code 14000
+  - Find transactions in the last 90 days
+  - Show transactions with a quantity of 3,500
+  - List expenses in the last 60 days
+  - Show purchases with a payment term of 60 days
+  - List all transactions for the China country of origin
+  - Find transactions in the last 45 days
+  - Show spending with a price per unit above 1.50 USD
+  - List expenses for vendor code 15000
+  - Find expenses in the last 30 days
+  - Show transactions with descriptions containing "service"
+  - List transactions for vendor code 16000
+  - Find purchases in the last 120 days
+  - Show transactions with a unit of measure
+
+intent: FILTER:
+  - Show transactions with a spend less than 5,000 USD
+  - List expenses for vendor code 4000
+  - Display transactions with a spend greater than 25,000 USD
+  - Find purchases from United States of America
+  - Show expenses for the month of April in 2023
+  - List all transactions for vendor code 6000
+  - Find spending with a price per unit less than 0.50 USD
+  - Show transactions for the Rubber category
+  - List expenses in the last 60 days
+  - Find transactions for vendor code 7000
+  - Show transactions with a quantity of 8,000
+  - List all purchases in the last 90 days
+  - Find expenses with a spend between 10,000 and 15,000 USD
+  - Display all transactions with part code M98745632
+  - Find transactions with descriptions containing "metal"
+  - Show transactions with a payment term of 30 days
+  - List expenses for the Mexico country of origin
+  - Find expenses in the last 30 days
+  - Show expenses with a unit of measure in (EA)
+  - List purchases in the Plastics category
+  - Find transactions with a price per unit between 1.00 and 2.00 USD
+  - Show transactions for vendor code 8000
+  - List all transactions for the Taiwan, Republic of China country of origin
+  - Display spending in the Metal category
+  - List expenses for vendor code 9000
+  - Find expenses in the last 15 days
+  - Show spending with a payment term of 120 days
+  - List transactions for the Brazil country of origin
+  - Find transactions in the last 7 days
+  - Show transactions with a spend between 8,000 and 12,000 USD
+  - List all purchases for the United Kingdom country of origin
+  - Find expenses in the last 10 days
+  - Show expenses in the Electronics category
+  - List transactions for vendor code 10000
+  - Find purchases in the last 90 days
+  - Show expenses with a price per unit above 2.00 USD
+  - List expenses for the Canada country of origin
+  - Find transactions in the last 45 days
+  - Show transactions with descriptions containing "plastics"
+  - List expenses for vendor code 11000
+  - Find expenses in the last 60 days
+  - Show transactions with a quantity of 12,000
+  - List transactions for the United States of America
+  - Find transactions in the last 15 days
+  - Show purchases with a payment term of 90 days
+  - List all transactions for vendor code 12000
+  - Find expenses in the last 30 days
+  - Show spending with a unit of measure in (EA)
+  - List purchases in the Rubber category
+  - Find transactions with a spend between 12,000 and 16,000 USD
+  - Show transactions for vendor code 13000
+  - List all transactions for the China country of origin
+  - Find transactions in the last 10 days
+  - Show expenses with a price per unit between 1.50 and 2.50 USD
+  - List expenses for vendor code 14000
+  - Find expenses in the last 90 days
+  - Show transactions with descriptions containing "electronics"
+  - List transactions for vendor code 15000
+  - Find purchases in the last 120 days
+  - Show transactions with a unit of measure in (EA)
+  - List expenses in the Metal category
+  - Find transactions in the last 45 days
+  - Show spending with a payment term of 60 days
+
+
+intent: AGGREGATE:
+  - What is the total spend for vendor code 5000 in Q1 2023?
+  - List the top 3 vendors with the lowest spend in Q3 2023
+  - Compare spending between Chicago MFG and New York Plant in Q2 2023
+  - Give me a summary of spending by commodity for the last quarter
+  - Show the total spend in USD for Whirlpool 15000 Vendor in Q2 2023
+  - Find the category with the highest expenses in Q4 2023
+  - Display total spending for the year 2024
+  - List vendors with the least transactions in July
+  - Show expenses grouped by payment days for the last 6 months
+  - Get an overview of monthly spending for Canada in 2023
+  - Compare the spend in Q3 2024 to Q3 2025
+  - List the top 3 vendors with the highest spend in Q1 2025
+  - Compare spending between Chicago MFG and Los Angeles Plant in Q4 2024
+  - Give me a summary of spending by commodity for the last year
+  - Show the total spend in USD for Whirlpool 5500 Vendor in Q3 2024
+  - Find the category with the lowest expenses in Q1 2024
+  - Display total spending for the year 2025
+  - List vendors with the most transactions in August
+  - Show expenses grouped by payment days for the last 3 months
+  - Get an overview of monthly spending for Mexico in 2024
+  - Compare the spend in Q2 2025 to Q2 2026
+  - List the top 3 vendors with the highest spend in Q3 2026
+  - Compare spending between Chicago MFG and San Francisco Plant in Q4 2026
+  - Give me a summary of spending by commodity for the last quarter
+  - Show the total spend in USD for Whirlpool 7000 Vendor in Q2 2026
+  - Find the category with the lowest expenses in Q4 2025
+  - Display total spending for the year 2027
+  - List vendors with the least transactions in September
+  - Show expenses grouped by payment days for the last 6 months
+  - Get an overview of monthly spending for United Kingdom in 2025
+  - Compare the spend in Q2 2027 to Q2 2028
+  - List the top 3 vendors with the highest spend in Q3 2028
+  - Compare spending between Chicago MFG and Atlanta Plant in Q4 2028
+  - Give me a summary of spending by commodity for the last year
+  - Show the total spend in USD for Whirlpool 8000 Vendor in Q3 2028
+  - Find the category with the highest expenses in Q4 2027
+  - Display total spending for the year 2029
+  - List vendors with the most transactions in October
+  - Show expenses grouped by payment days for the last 3 months
+  - Get an overview of monthly spending for Taiwan, Republic of China in 2026
+  - Compare the spend in Q1 2029 to Q1 2030
+
+intent: COMPARE:
+  - Compare expenses for Q2 2023 and Q2 2024
+  - What is the difference in spending between Q3 2023 and Q3 2024?
+  - Show me the variation in spend for vendor code 2000 in Q4 2023 and Q4 2024
+  - Compare expenses in the Metal category for Q1 2023 and Q1 2024
+  - List the changes in spend between Q2 2023 and Q2 2024 for the Rubber category
+  - Compare total spending for Taiwan, Republic of China in Q3 2023 and Q3 2024
+  - How does the spend in Q4 2023 compare to Q4 2024 for vendor code 3000?
+  - Show the differences in spending between Q1 2023 and Q1 2024 for the Electronics category
+  - List the variations in spend for United Kingdom in Q2 2023 and Q2 2024
+  - Compare quarterly expenses for Chicago MFG in Q3 2023 and Q3 2024
+  - What is the difference in spending for vendor code 4000 in Q4 2023 and Q4 2024?
+  - Show me the variations in spend between Q1 2023 and Q1 2024 for the Plastics category
+  - Compare total spending for Mexico in Q2 2023 and Q2 2024
+  - How does the spend in Q3 2023 compare to Q3 2024 for vendor code 5000?
+  - Show the differences in spending between Q4 2023 and Q4 2024 for the Metal category
+  - List the variations in spend for Brazil in Q1 2023 and Q1 2024
+  - Compare quarterly expenses for Taiwan, Republic of China in Q2 2023 and Q2 2024
+  - What is the difference in spending for vendor code 6000 in Q3 2023 and Q3 2024?
+  - Show me the variations in spend between Q4 2023 and Q4 2024 for the Rubber category
+  - Compare total spending for United States of America in Q1 2023 and Q1 2024
+  - How does the spend in Q2 2023 compare to Q2 2024 for vendor code 7000?
+  - Show the differences in spending between Q3 2023 and Q3 2024 for the Electronics category
+  - List the variations in spend for Canada in Q4 2023 and Q4 2024
+  - Compare quarterly expenses for Mexico in Q1 2023 and Q1 2024
+  - What is the difference in spending for vendor code 8000 in Q2 2023 and Q2 2024?
+  - Show me the variations in spend between Q3 2023 and Q3 2024 for the Plastics category
+  - Compare total spending for China in Q4 2023 and Q4 2024
+  - How does the spend in Q1 2023 compare to Q1 2024 for vendor code 9000?
+  - Show the differences in spending between Q2 2023 and Q2 2024 for the Metal category
+  - List the variations in spend for Taiwan, Republic of China in Q3 2023 and Q3 2024
+  - Compare quarterly expenses for Brazil in Q4 2023 and Q4 2024
+  - What is the difference in spending for vendor code 10000 in Q1 2023 and Q1 2024?
+  - Show me the variations in spend between Q2 2023 and Q2 2024 for the Rubber category
+  - Compare total spending for the United Kingdom in Q3 2023 and Q3 2024
+  - How does the spend in Q4 2023 compare to Q4 2024 for vendor code 11000?
+  - Show the differences in spending between Q1 2023 and Q1 2024 for the Electronics category
+  - List the variations in spend for the Canada country of origin in Q2 2023 and Q2 2024
+  - Compare quarterly expenses for the Metal category in Q3 2023 and Q3 2024
+  - What is the difference in spending for vendor code 12000 in Q4 2023 and Q4 2024?
+  - Show me the variations in spend between Q1 2023 and Q1 2024 for the Plastics category
+  - Compare total spending for the Mexico country of origin in Q2 2023 and Q2 2024
+  - How does the spend in Q3 2023 compare to Q3 2024 for vendor code 13000?
+  - Show the differences in spending between Q4 2023 and Q4 2024 for the Rubber category
+  - List the variations in spend for the China country of origin in Q1 2023 and Q1 2024
+  - Compare quarterly expenses for Taiwan, Republic of China in Q2 2023 and Q2 2024
+  - What is the difference in spending for vendor code 14000 in Q3 2023 and Q3 2024?
+  - Show me the variations in spend between Q4 2023 and Q4 2024 for the Metal category
+  - Compare total spending for the United States of America in Q4 2023 and Q4 2024
+  - How does the spend in Q1 2023 compare to Q1 2024 for vendor code 15000?
+  - Show the differences in spending between Q2 2023 and Q2 2024 for the Electronics category
+  - List the variations in spend for the United Kingdom in Q3 2023 and Q3 2024
+  - Compare quarterly expenses for Canada in Q4 2023 and Q4 2024
+  - What is the difference in spending for vendor code 16000 in Q1 2023 and Q1 2024?
+  - Show me the variations in spend between Q2 2023 and Q2 2024 for the Plastics category
+  - Compare total spending for Brazil in Q2 2023 and Q2 2024
+  - How does the spend in Q3 2023 compare to Q3 2024 for vendor code 17000?
+  - Show the differences in spending between Q4 2023 and Q4 2024 for the Metal category
+
+intent: OTHER:
+  - Show me transactions with a spend value between 5,000 and 10,000 USD
+  - Which vendor had the highest expenses in February 2023?
+  - List purchases from the last 7 days
+  - Show expenses with payment days over 120
+  - Display transactions with descriptions containing "service"
+  - Find expenses with a unit of measure in (EA)
+  - List all transactions for the past 3 months
+  - Show purchases with a payment term of 90 days
+  - Find transactions in the Metal category
+  - Display transactions for the current week

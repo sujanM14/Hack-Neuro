@@ -1,0 +1,175 @@
+version: "2.0"
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with your spend analysis?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask."
+
+  utter_default:
+    - text: "I'm sorry, but I couldn't understand your request. Can you please rephrase it?"
+
+  utter_list_of_vendors:
+    - text: "Here is a list of vendors where the country of origin is India but the vendor country is not India:\n{vendor_list}\nThe total spend for these vendors is {total_spend}."
+
+  utter_top_commodities:
+    - text: "The top 3 commodities based on spend are:\n{commodity_list}"
+
+  utter_vendor_with_highest_spend:
+    - text: "The vendor country with the highest share in overall spend is {vendor_country}. They have spent a total of {total_spend}."
+
+  utter_spend_by_payment_days:
+    - text: "The spend in different payment days groups:\n- 0-50 days: {spend_0_50}\n- 51-90 days: {spend_51_90}\n- 91-150 days: {spend_91_150}"
+
+  utter_highest_spend_vendor:
+    - text: "The vendor with the highest spend is {vendor_name} from {vendor_country}. Their spend value is {spend_value} billion dollars."
+
+  utter_plant_spend_difference:
+    - text: "At the plant level, the difference between the maximum and minimum spend values is {spend_difference}."
+
+  utter_list_transactions:
+    - text: "Here are the transactions matching your criteria:\n{transaction_list}"
+
+  utter_total_spend_by_category:
+    - text: "The total spend for the {category} category is {total_spend}."
+
+  utter_vendor_not_found:
+    - text: "I couldn't find any transactions for the vendor {vendor_name}."
+ utter_lowest_spend_vendor:
+    - text: "The vendor with the lowest spend is {vendor_name} from {vendor_country}. Their spend value is {spend_value} billion dollars."
+
+  utter_expenses_by_country:
+    - text: "Here are the expenses grouped by country:\n{expenses_by_country}"
+
+  utter_transaction_not_found:
+    - text: "I couldn't find any transactions matching your criteria."
+
+  utter_total_spend:
+    - text: "The total spend for all transactions is {total_spend}."
+
+  utter_invalid_date_range:
+    - text: "The provided date range is invalid. Please specify a valid date range."
+
+  utter_category_not_found:
+    - text: "I couldn't find any transactions for the category {category}."
+
+  utter_vendor_spend:
+    - text: "The total spend for vendor {vendor_name} is {total_spend}."
+
+  utter_multiple_vendors:
+    - text: "I found multiple vendors matching your query. Please specify which vendor you are referring to."
+
+  utter_expense_summary:
+    - text: "Here's a summary of expenses:\n- Total spend: {total_spend}\n- Total transactions: {total_transactions}\n- Average spend: {average_spend}"
+
+  utter_transaction_details:
+    - text: "Here are the details for the transaction:\n- Transaction ID: {transaction_id}\n- Amount: {amount}\n- Description: {description}\n- Vendor: {vendor}\n- Date: {date}"
+
+  utter_no_data:
+    - text: "I'm sorry, but there is no data available for your request."
+
+  utter_help:
+    - text: "How can I assist you? You can ask questions like 'List my expenses for this month' or 'Show expenses in the last quarter'."
+utter_vendor_category_spend:
+    - text: "The total spend for vendor {vendor_name} in the {category} category is {total_spend}."
+
+  utter_expense_summary_by_month:
+    - text: "Here's a summary of expenses for the month of {month}:\n- Total spend: {total_spend}\n- Total transactions: {total_transactions}\n- Average spend: {average_spend}"
+
+  utter_vendor_details:
+    - text: "Here are the details for the vendor {vendor_name}:\n- Country of origin: {origin_country}\n- Total spend: {total_spend}\n- Number of transactions: {transaction_count}"
+
+  utter_invalid_query:
+    - text: "I'm sorry, but I couldn't understand your query. Please provide a valid request."
+
+  utter_successful_query:
+    - text: "Your query was successful."
+
+  utter_error:
+    - text: "An error occurred while processing your request. Please try again later."
+
+  utter_no_results:
+    - text: "I couldn't find any results for your query."
+
+  utter_transaction_count:
+    - text: "There are {transaction_count} transactions matching your criteria."
+
+  utter_multiple_categories:
+    - text: "I found multiple categories matching your query. Please specify which category you are referring to."
+
+  utter_invalid_category:
+    - text: "The specified category is invalid. Please choose a valid category."
+
+  utter_transaction_limit_exceeded:
+    - text: "The number of transactions exceeds the limit. Here are the first {limit} transactions:\n{transaction_list}"
+
+  utter_vendor_not_recognized:
+    - text: "I couldn't recognize the vendor name. Please provide a valid vendor name."
+
+  utter_information_needed:
+    - text: "To assist you, I need more information. Please specify your query in more detail."
+utter_transaction_details:
+    - text: "Details of the transaction:\n- Region: {region}\n- Month: {month}\n- Year: {year}\n- Plant Name: {plant_name}\n- Vendor Name: {vendor_name}\n- Commodity: {commodity}\n- Buyer: {buyer}\n- Part Code: {part_code}\n- Payment Days: {payment_days}\n- Country of Origin: {country_of_origin}\n- Quantity: {quantity}\n- Unit of Measure: {unit_of_measure}\n- Price per Unit: {price_per_unit} {po_currency}\n- Exchange Rate in USD: {exchange_rate}\n- Spend in USD: {spend_usd}"
+
+  utter_transaction_not_found:
+    - text: "I couldn't find any transactions matching your criteria."
+
+  utter_transaction_count:
+    - text: "There are {transaction_count} transactions matching your criteria."
+
+  utter_vendor_spend:
+    - text: "The total spend for vendor {vendor_name} is {total_spend} USD."
+
+  utter_vendor_details:
+    - text: "Vendor Details:\n- Vendor Name: {vendor_name}\n- Vendor Country: {vendor_country}"
+
+  utter_spend_by_month:
+    - text: "Total spend in {month}/{year} for {plant_name} ({plant_country}) is {total_spend} USD."
+
+  utter_plant_details:
+    - text: "Plant Details:\n- Plant Name: {plant_name}\n- Plant Country: {plant_country}"
+
+  utter_country_details:
+    - text: "Country Details:\n- Country: {country}\n- Total Spend: {total_spend} USD"
+
+  utter_category_spend:
+    - text: "Total spend for {commodity} is {total_spend} USD."
+
+  utter_invalid_date_range:
+    - text: "The specified date range is invalid. Please provide a valid date range."
+
+  utter_multiple_vendors:
+    - text: "Multiple vendors match your query. Please specify the vendor you are referring to."
+responses:
+  utter_total_spend_by_region:
+    - text: "The total spend for {region} in {month}/{year} is {total_spend} USD."
+
+  utter_total_spend_by_buyer:
+    - text: "The total spend for transactions managed by {buyer} in {month}/{year} is {total_spend} USD."
+
+  utter_part_details:
+    - text: "Part Details:\n- Part Code: {part_code}\n- Quantity: {quantity}\n- Unit of Measure: {unit_of_measure}\n- Price per Unit: {price_per_unit} {po_currency}"
+
+  utter_vendor_origin_country:
+    - text: "Vendor {vendor_name} is from {vendor_country}."
+
+  utter_commodity_country_origin:
+    - text: "Transactions for {commodity} from {country_of_origin} have a total spend of {total_spend} USD."
+
+  utter_invalid_input:
+    - text: "I'm sorry, but I couldn't understand your request. Please provide a valid query."
+
+  utter_no_transactions_found:
+    - text: "No transactions match your criteria. Please try a different query."
+
+  utter_limit_exceeded:
+    - text: "The number of transactions exceeds the limit. Here are the first {limit} transactions:\n{transaction_list}"
+
+  utter_multiple_categories:
+    - text: "I found multiple categories matching your query. Please specify the category you are referring to."
+
+  utter_invalid_category:
+    - text: "The specified category is invalid. Please select a valid category."
+
+  utter_vendor_not_recognized:
+    - text: "I couldn't recognize the vendor name. Please provide a valid vendor name."
